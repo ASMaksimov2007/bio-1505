@@ -10,3 +10,9 @@ p {
   font-family: 'Noto Sans', sans-serif;
   font-size: 64px;
 }
+
+img {
+  margin-left: 30%;
+  margin-right: 30%;
+  width: 40%;
+}
