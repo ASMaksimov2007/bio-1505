@@ -1,0 +1,12 @@
+body {
+  padding: 0;
+  margin: auto;
+  width: 1000px;
+  background-color: white;
+}
+
+p {
+  text-align: center;
+  font-family: 'Noto Sans', sans-serif;
+  font-size: 64px;
+}
