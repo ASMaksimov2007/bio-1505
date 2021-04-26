@@ -5,14 +5,80 @@ body {
   background-color: white;
 }
 
+
 p {
   text-align: center;
   font-family: 'Noto Sans', sans-serif;
   font-size: 64px;
+
 }
 
+
 img {
-  margin-left: 30%;
-  margin-right: 30%;
-  width: 40%;
+  width: 100%;
+}
+
+
+.photo {
+  width: 45%;
+}
+
+
+.plant-card {
+  display: flex;
+  flex-direction: column;
+}
+
+
+.plant-info {
+  display: flex;
+  flex-direction: row;
+}
+
+
+.titles-all {
+  width: 55%;
+  display: flex;
+  flex-direction: column;
+}
+
+
+.description {
+  display: flex;
+  flex-direction: column;
+}
+
+.title p {
+  font-style: normal;
+  margin: 0;
+  text-align: left;
+  margin-left: 10px;
+}
+
+.title-latin p {
+  font-style: italic;
+  font-size: 50px;
+  margin: 0;
+  text-align: left;
+  margin-left: 10px;
+}
+
+.title {
+  height: 100px;
+  text-align: left;
+}
+
+.title-latin {
+  height: 90px;
+}
+
+.origin-latin {
+  height: 100%;
+}
+
+.origin-latin p {
+  margin-left: 10px;
+  margin-top: 0;
+  text-align: center;
+  font-size: 30px;
 }
