@@ -27,6 +27,7 @@ img {
 .plant-card {
   display: flex;
   flex-direction: column;
+  margin: 30px;
 }
 
 
@@ -40,6 +41,7 @@ img {
   width: 55%;
   display: flex;
   flex-direction: column;
+  margin-left: 30px;
 }
 
 
@@ -53,11 +55,12 @@ img {
   margin: 0;
   text-align: left;
   margin-left: 10px;
+  font-size: 50px;
 }
 
 .title-latin p {
   font-style: italic;
-  font-size: 50px;
+  font-size: 40px;
   margin: 0;
   text-align: left;
   margin-left: 10px;
@@ -65,6 +68,7 @@ img {
 
 .title {
   height: 100px;
+  margin-top: 50px;
   text-align: left;
 }
 
@@ -78,7 +82,7 @@ img {
 
 .origin-latin p {
   margin-left: 10px;
-  margin-top: 0;
-  text-align: center;
+  margin-top: 20px;
+  text-align: left;
   font-size: 30px;
 }
